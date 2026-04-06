@@ -1,4 +1,8 @@
-# calculator.py - модуль с калькулятором
+def divide(a, b):
+    """Return a divided by b. Raise error if b is zero."""
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b# calculator.py - модуль с калькулятором
 def add(a, b):
     return a + b
 
