@@ -16,7 +16,7 @@ def main():
     
     print(f"\n{Fore.CYAN}{greet('мир')}{Style.RESET_ALL}")
     
-    print(f"\n{Fore.YELLOW}--- Калькулятор ---{Style.RESET_ALL}")
+    print(f"\n{Fore.YELLOW}--- Калькулятор получился---{Style.RESET_ALL}")
     print(f"5 + 3 = {Fore.GREEN}{add(5, 3)}{Style.RESET_ALL}")
     print(f"10 - 4 = {Fore.GREEN}{subtract(10, 4)}{Style.RESET_ALL}")
     print(f"6 * 7 = {Fore.GREEN}{multiply(6, 7)}{Style.RESET_ALL}")
