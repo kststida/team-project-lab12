@@ -19,3 +19,12 @@ class Logger:
     def error(self, message):
         timestamp = datetime.now().strftime("%H:%M:%S")
         print(f"{Fore.RED}[ERROR]{Fore.RESET} {timestamp} - {message}")
+import logging
+
+def setup_file_logging():
+    """Setup logging to file"""
+    logging.basicConfig(
+        filename='app.log',
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s'
+    )
