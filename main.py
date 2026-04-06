@@ -1,4 +1,6 @@
-# main.py - главный файл приложения
+import config
+from logger import setup_logger
+from calculator import add, subtract, multiply, divide# main.py - главный файл приложения
 from utils import greet, farewell
 from config import APP_NAME, DEBUG, VERSION, AUTHORS
 from calculator import add, subtract, multiply, divide
